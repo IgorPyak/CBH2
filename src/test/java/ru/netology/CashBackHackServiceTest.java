@@ -4,7 +4,6 @@ import org.junit.Assert;
 import org.junit.Test;
 
 
-
 public class CashBackHackServiceTest {
 
     @Test
@@ -18,6 +17,7 @@ public class CashBackHackServiceTest {
 
 
     }
+
     @Test
     public void testRemain2() {
         CashBackHackService service = new CashBackHackService();
@@ -27,6 +27,7 @@ public class CashBackHackServiceTest {
 
         Assert.assertEquals(expected, actual);
     }
+
     @Test
     public void testRemain3() {
         CashBackHackService service = new CashBackHackService();
@@ -36,6 +37,7 @@ public class CashBackHackServiceTest {
 
         Assert.assertEquals(expected, actual);
     }
+
     @Test
     public void testRemain4() {
         CashBackHackService service = new CashBackHackService();
